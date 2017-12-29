@@ -18,6 +18,13 @@ section, p,ol,ul{
 	font-family: Roboto;
 	line-height: 110%;
 }
+
+.mindrebillede{
+	display: block;
+	max-width: 50%;
+	height: auto;
+}
+
 /* Table of cotent menu styling start */
 .fading-side-menu.affix-top {
     opacity: 1;
