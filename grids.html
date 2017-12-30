@@ -1,10 +1,144 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Layout med grids</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Ophavsret</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="overordnet.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Roboto" rel="stylesheet">'
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 <body>
-	<section>
+	<!--Navbar start-->
+            <nav class="navbar navbar-default" role="navigation">
+    	  <div class="container">
+		   
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      
+		    </div>
+
+		   
+		    <div class="collapse navbar-collapse" id="navbar-brand-centered">
+		    	     <ul class="nav navbar-nav">
+		         <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Forside og refleksioner 
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="forside.html">Forside</a></li>
+          <li><a href="refleksioner.html">Refleksioner</a></li>
+        </ul>
+      </li>
+		      <ul class="nav navbar-nav">
+		         <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Visualisering &amp; Design
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="typografi.html">Typografi</a></li>
+          <li><a href="designogvisualisering.html">Farveteori</a></li>
+          <li><a href="foto.html">Foto</a></li>
+          <li><a href="gestaltlove.html">Gestaltlovene</a></li>
+          <li><a href="photoshop.html">Photoshop</a></li>
+          <li><a href="indesign.html">Indesign</a></li>
+          <li><a href="illustrator.html">Illustartor</a></li>
+          <li><a href="videoredigering.html">Videoredigering</a></li>
+        </ul>
+      </li>
+		      </ul>
+		      <ul class="nav navbar-nav">
+		         <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Kommunikation
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="mediesociologi.html">Mediesociologi</a></li>
+          <li><a href="produktionsmodeller.html">Produktionsmodeller</a></li>
+          <li><a href="idegenrering.html">Idé-generering</a></li>
+          <li><a href="jounalistiskebegreber.html">Tekst som medie og journalistiske grundbegreber</a></li>
+          <li><a href="visuelkommunikation.html">Visualiseringsværktøjer</a></li>
+          <li><a href="storytelling.html">Storytelling</a></li>
+        </ul>
+      </li>
+
+      <ul class="nav navbar-nav">
+		         <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Virksomhed
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="virksomhed.html">Virksomheden</a></li>
+          <li><a href="ophavsret.html">Ophavsret og licenseringsmetoder</a></li>
+          <li><a href="projektarbejde.html">Projektarbejde og udviklingsmetoder</a></li>
+        </ul>
+      </li>
+		      </ul>
+
+		      <ul class="nav navbar-nav">
+		         <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Interaktionsudvikling
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="interaktionsudvikling.html">Intro</a></li>
+          <li><a href="html.html">HTML</a></li>
+          <li><a href="css.html">CSS</a></li>
+          <li><a href="versionsstyring.html">Versionsstyring med GIT</a></li>
+          <li><a href="grids.html">Layout med Grid</a></li>
+          <li><a href="responsivdesign.html">Responsiv design</a></li>
+          <li><a href="framework.html">Framework - Bootstrap</a></li>
+        </ul>
+      </li>
+		      </ul>
+
+		      <ul class="nav navbar-nav">
+		         <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projekter
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="førstehjemmeside.html">Første hjemmeside</a></li>
+          <li><a href="prototypeprojekt.html">Prototype projekt / design thinking</a></li>
+          <li><a href="brugercentreretmetode.html">Brugercentreret metode</a></li>
+          <li><a href="onepage.html">Onepage projekt</a></li>
+
+        </ul>
+      </li>
+		      </ul>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		<!--Navbar slut-->
+		<!--Table of content menu start-->
+	<div class="container">
+ <div class="hidden-xs col-sm-3">
+        <div class="fading-side-menu" data-spy="affix" data-offset-top="350">
+            <h5>Ophavsret</h5><hr class="no-margin">
+            <ul class="list-unstyled">
+                <li>
+                    <a href="#grids">
+                        <span class="fa fa-angle-double-right text-primary"></span>Introduktion
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--table of content menu slut-->
+    	<!--indhold start-->
+	<div class="col-xs-12 col-sm-9">
+	<section id="grids">
 		<h3>Grids</h3>
 		Grid har for os været det første skridt imod at kunne lave responsive hjemmesider, grids er det nyeste indenfor css, og bliver omtalt som noget af det mest revolutionerende siden der blev lavet responsive hjemmesider. Før i tiden var det rigtig svært at placere elementerne på siden i CSS, men grids gør det hele meget nemmere. Float og clear har haft succes, men været meget trial and error, det har altså ikke fungeret så solidt som grids gør. Grids bygger grundlæggende på flexbox, men i modsætning til det, som tager udgangspunkt i at indholdet bestemmer meget (og egentligt helst skal have samme størrelse, for ikke at skabe problemer), så er grids mere medgørligt, da det tager udgangspunkt i layout. Før var der altså fokus på bredder på elementerne og nu regner grids selv bredden ud. <br>
 		I en af øvelserne vi havde med grids skulle vi sætte en morsenøgle. Jeg har brugt den som eksempel, da jeg virkelig synes at den viser hvor godt grids fungerer, og hvordan tilgangen til det er. <br>
@@ -12,6 +146,14 @@
 		Her er mit færdige produkt med morsenøglen, og nedenunder ser man hvordan jeg har opbygget det i css. 
 		<img src="Billeder/gridskode2.png" class="img-responsive">
 	</section>
+</div>
+</div>
+<a href="http://bootsnipp.com/iframe/rVnOR" class="btn btn-primary btn-lg" id="fullscreen" data-toggle="tooltip" data-placement="left" title="Full Screen"><span class="fa fa-arrows-alt"></span></a>
 
-</body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="javascript.js"></script>
+  </body>
 </html>
