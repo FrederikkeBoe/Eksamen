@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Responsiv design</title>
+    <title>Videoredigering</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -20,24 +20,24 @@
     <![endif]-->
   </head>
 <body>
-  <!--Navbar start-->
+	<!--Navbar start-->
             <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-       
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          
-        </div>
+    	  <div class="container">
+		   
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      
+		    </div>
 
-       
-        <div class="collapse navbar-collapse" id="navbar-brand-centered">
-               <ul class="nav navbar-nav">
-             <li class="dropdown">
+		   
+		    <div class="collapse navbar-collapse" id="navbar-brand-centered">
+		    	     <ul class="nav navbar-nav">
+		         <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Forside og refleksioner 
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
@@ -45,8 +45,8 @@
           <li><a href="refleksioner.html">Refleksioner</a></li>
         </ul>
       </li>
-          <ul class="nav navbar-nav">
-             <li class="dropdown">
+		      <ul class="nav navbar-nav">
+		         <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Visualisering &amp; Design
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
@@ -60,9 +60,9 @@
           <li><a href="videoredigering.html">Videoredigering</a></li>
         </ul>
       </li>
-          </ul>
-          <ul class="nav navbar-nav">
-             <li class="dropdown">
+		      </ul>
+		      <ul class="nav navbar-nav">
+		         <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Kommunikation
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
@@ -76,7 +76,7 @@
       </li>
 
       <ul class="nav navbar-nav">
-             <li class="dropdown">
+		         <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Virksomhed
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
@@ -85,10 +85,10 @@
           <li><a href="projektarbejde.html">Projektarbejde og udviklingsmetoder</a></li>
         </ul>
       </li>
-          </ul>
+		      </ul>
 
-          <ul class="nav navbar-nav">
-             <li class="dropdown">
+		      <ul class="nav navbar-nav">
+		         <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Interaktionsudvikling
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
@@ -101,10 +101,10 @@
           <li><a href="framework.html">Framework - Bootstrap</a></li>
         </ul>
       </li>
-          </ul>
+		      </ul>
 
-          <ul class="nav navbar-nav">
-             <li class="dropdown">
+		      <ul class="nav navbar-nav">
+		         <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projekter
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
@@ -115,31 +115,21 @@
 
         </ul>
       </li>
-          </ul>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-    <!--Navbar slut-->  
+		      </ul>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		<!--Navbar slut-->
 		<!--Table of content menu start-->
 	<div class="container">
  <div class="hidden-xs col-sm-3">
         <div class="fading-side-menu" data-spy="affix" data-offset-top="350">
-            <h5>Responsiv design</h5><hr class="no-margin">
+            <h5>Videoredigering</h5><hr class="no-margin">
             <ul class="list-unstyled">
                 <li>
-                    <a href="#responsivdesign">
+                    <a href="#videoproduktion">
                         <span class="fa fa-angle-double-right text-primary"></span>Introduktion
-                    </a>
-                </li>
-                <li>
-                    <a href="#layoutformer">
-                        <span class="fa fa-angle-double-right text-primary"></span>Layoutformer
-                    </a>
-                </li>
-                <li>
-                    <a href="#breakpoints">
-                        <span class="fa fa-angle-double-right text-primary"></span>Breakpoints
                     </a>
                 </li>
             </ul>
@@ -148,18 +138,12 @@
     <!--table of content menu slut-->
     	<!--indhold start-->
 	<div class="col-xs-12 col-sm-9">
-<section id="responsivdesign">
-  Enheder som tablet, mobil og desktop har forskellige skærmstørrelse, og derved også forskellige skærmopløsninger – ideen bag responsive design er at give brugeren den optimale oplevelse, uanset enheden. Ideen bag er også at der skal være så lidt kode som muligt, så man ikke skal vedligeholde mange forskellige versioner samtidigt, og responsiv design giver også god SEO. 
-  <h3 id="layoutformer">Layoutformer</h3>
-  Indenfor layoutformer findes der 4 tilgange, statisk, adaptiv, flydende og responsiv. <br>
-  Den statiske (static) er baseret på faste mål, også kaldt fixed width, her bliver ikke ændret noget ved de forskellige skærmstørrelser, og hvis der er noget ekstra plads på skærmen, så bliver det til luft i siderne. På desktop bliver den typisk beskåret i siden, på mobil skaleres (eller zoomes) der typisk. I de første år af www blev det brugt meget, og designeren har meget kontrol over slutresultatet, hvis altså skærmen er stor nok – derfor fungerer den også dårligt på andre skærm end den designet er tiltænkt. <br>
-  I den flydende layoutform (fluid, liquid) tilpasser elementerne sig bredden på enheden, og er ofte realtivt angivet – for det meste i procenter. De fleste elementer kan blive meget smalle, men der er også en grænse for hvor smalle de kan blive. Denne layoutform bliver ofte brugt hvor indhold og funktionalitet er vigtigere end det grafiske design, og selvom den er udskældt af æstetisk-orienterede brugere, så udnytter den pladsen meget bedre, ser ofte bedre ud og vigtigst, så giver den en meget bedre brugeroplevelse.  Layoutformer (4 overordnede tilgange) <br>
-  Adapativ (AWD (adaptive web design)) er en mellemting mellem statisk og responsiv, og består af statiske layouts. De adaptive layout bliver styret af @meadiaquieres, men skærme der ikke rammer breakpoints giver typisk for lidt eller for meget plads – det er sjældent noget man vælger, hvis man kan gøre det responsivt. Det bliver også brugt hvis man gerne vil undgå at skrive det hele om, hvis et statisk design skal laves om til responsitvt – typisk bliver det lavet mobile last. <br>
-  Det responsive (RWD (Responsive web design)), er det man mest bruger i dag, da det ikke er specielt vanskeligt, og man bruger de samme HTML og CSS-filer, uanset enhed. Det består for det meste af et flydende layout, og der følger så en række regler med, som ændrer på layoutet afhængigt af skærmbredden – her bliver der også brugt @mediaquieres. 
-  <h3 id="breakpoints">Breakpoints</h3>
-  Breakpoints er den bredde man sætter, hvor en regel skal overtage fra en anden, en hjemmeside der er responsiv har typisk mindst to breakpoints, men gerne flere.  Her er det også vigtigt at huske viewport, som er et metatag, der fortæller at mobileenheder ikke skal prøve at skalere og presse et desktopdesign ned på mobil størrelse – hvis man ikke gør dette til @mediaquieres typisk ikke virke. 
-  Når man designer er det altid en god ide at designe mobile first, da det kan være svært at tilpasse meget information på begrænset plads – og de mobile enheder bliver brugt oftere desktop. Når man starter med mobile first starter man altså med CSS som er tilpasset den mobile enhed, herefter tilføjes der breakpoints, som gør at der bliver tilpasset til tablet og desktop. 
-</section>
+    <section>
+      <h3 id="videoproduktion">Videoproduktion</h3>
+      Da vi havde besøg af brobygningselever skulle vi lave en rapid video production, som, ligesom navnet siger, handler om at lave en videoproduktion på kort tid. Vores udgangspunkt var en video reklame for en platform indenfor sociale medier, men hvilken var valgfrit. Det hele startede med et storyboard, for at få alle ideer samlet og et udgangspunkt til vores filmning. Herefter skulle der filmes på vores telefoner og redigeres i Premiere Adobe, som vi igen ikke havde meget tid til – og derfor skulle vi være kritsike med hvor vores fokuspunkt var. <br>
+      Min gruppe valgte discord, som er et online medie, der fungerer ligesom Skype, hvor man kan kommunikere med andre online: <br>
+      <a href="https://youtu.be/stwYbF1uVUw">Film om discord</a>
+    </section>
 </div>
 </div>
 <a href="http://bootsnipp.com/iframe/rVnOR" class="btn btn-primary btn-lg" id="fullscreen" data-toggle="tooltip" data-placement="left" title="Full Screen"><span class="fa fa-arrows-alt"></span></a>
