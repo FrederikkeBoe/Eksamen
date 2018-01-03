@@ -13,10 +13,21 @@ h3 {
 	font-size: 1.5em;
 }
 
-section, p,ol,ul{
+section, p,ol,ul,{
 	font-size: 1em;
 	font-family: Roboto;
 	line-height: 110%;
+}
+
+.kilde {
+	font-size: 0.8em;
+	font-family: Roboto;
+}
+
+.banner {
+	font-size: 2em;
+	font-family: Alegreya Sans;
+	text-align: center;
 }
 
 .mindrebillede{

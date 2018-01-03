@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,6 +20,7 @@
     <![endif]-->
   </head>
 <body>
+  <header class="banner">Frederikke Boe - Portfolio - Multimediedesigner 2017</header>
   <!--Navbar start-->
             <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -41,7 +42,7 @@
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Forside og refleksioner 
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="forside.html">Forside</a></li>
+          <li><a href="index.html">Forside</a></li>
           <li><a href="refleksioner.html">Refleksioner</a></li>
         </ul>
       </li>
@@ -129,7 +130,7 @@
             <ul class="list-unstyled">
                 <li>
                     <a href="#HTML">
-                        <span class="fa fa-angle-double-right text-primary"></span>Intro
+                        <span class="fa fa-angle-double-right text-primary"></span>HTML
                     </a>
                 </li>
                 <li>
@@ -153,6 +154,16 @@
                     </a>
                 </li>
                 <li>
+                    <a href="#hypertext">
+                        <span class="fa fa-angle-double-right text-primary"></span>Hypertext
+                    </a>
+                </li>
+                <li>
+                    <a href="#semantisketags">
+                        <span class="fa fa-angle-double-right text-primary"></span>Semantiske tags
+                    </a>
+                </li>
+                <li>
                     <a href="#strukturering">
                         <span class="fa fa-angle-double-right text-primary"></span>Strukturering,phrasing og embedded
                     </a>
@@ -164,6 +175,7 @@
     	<!--indhold start-->
 	<div class="col-xs-12 col-sm-9">
     <section id="HTML">
+      <h3>HTML</h3>
       HTML kan blive betegnet som hjemmesiden skelet, altså strukturen – HTML bliver opbygget i en editor, hvor man skriver koden, og selve elementerne bliver lavet af tags. Tags starter et <> og afsluttet med </>, man kan ikke se selve tags på siden, men elementerne kommer frem.  Hvis man kigger på den helt simple opbygning af siden, så starter man med head, hvor f.eks. en titel på hjemmesiden i fanebladet bliver sat, og den kan så kun ses i fanebladet på browseren. Herefter kommer bodyen, hvor man finder alt indhold på selve siden, det kan være billeder, tekst, links osv – i bodyen bruges der ofte tags som paragrafer (p), sektioner (sections), inddeling (div) og område (span). Til sidst er der en footer, her kan der være referencer, copyright, kontakt muligheder, henvisninger osv. – altså alt det praktiske man gerne vil have med på siden, men som er underordnet i forhold til indholdet i bodyen. <br>
       <img src="Billeder/htmlopbygning.png" class="img-responsive">
 
@@ -187,7 +199,8 @@
       <h3 id="strukturering">Strukturering,phrasing og embedded </h3>
       Strukturering bliver brugt til at give et overblik i HTML dokumentet. Det kan være at lave indryk i editoren, så det bliver mere overskueligt, men det er også forskellige tags, som fortæller noget om hvad siden indeholder, det kan være noget som section og article. Form er elementer som bliver brugt til at inddele inputs i underkategorier, og giver altså også et større overblik. <br>
       Phrasing er html tags, som bruges til at fremhævet noget konkret tekst i indholdet, altså noget der er vigtigere end andet. 
-      Embedded elementer bliver brugt til at indsætte indhold som ikke er HTML, f.eks. billeder, lyd og videoer. 
+      Embedded elementer bliver brugt til at indsætte indhold som ikke er HTML, f.eks. billeder, lyd og videoer. <br>
+      <a href="#HTML">Til toppen</a>
     </section>
 </div>
 </div>
@@ -199,4 +212,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="javascript.js"></script>
   </body>
+  <footer class="kilde">
+    Kilder: Mark Collins , Pro HTML with CSS, JavaScript and multimedia, apress, ISBN 9781484224625, kap 1 & 4-8 <br>
+    Intro til HTML pdf, Niels Østergaard
+  </footer>
 </html>
