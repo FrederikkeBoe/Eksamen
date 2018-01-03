@@ -19,6 +19,12 @@ section, p,ol,ul,{
 	line-height: 110%;
 }
 
+#forsidebillede {
+	max-width: 50%;
+	height:auto;
+	position: center;
+}
+
 .kilde {
 	font-size: 0.8em;
 	font-family: Roboto;
